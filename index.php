@@ -12,9 +12,10 @@
 
 <?php if(have_posts(  )):
             while(have_posts(  )):the_post(  );
-                    echo 'nao tem post';
+        
             endwhile;
         endif;
+        echo 'nao tem post';
     
 ?>
 
