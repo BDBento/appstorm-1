@@ -14,7 +14,7 @@
 <div class="conttender">
         <?php 
         // exemplo argumento que define tres posts por pg. 
-        $args = array( 'posts_per_page' => 3, 'post_type' => 'post',); //argumentos da consulta 
+        $args = array( 'posts_per_page' => 2, 'post_type' => 'post',); //argumentos da consulta 
         
         // Variável para chamar WP_Query. 
         $the_query = new WP_Query( $args ); 
