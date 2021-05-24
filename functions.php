@@ -13,6 +13,9 @@ function registrando_meu_menu(){
 }
 add_action( 'init', 'registrando_meu_menu');
 
+
+
+
 /*-----------------logo -------------*/
 
 function tema_custom_logo() {

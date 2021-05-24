@@ -13,14 +13,14 @@
 
 <body>
 <header class="container-fluid cabecario">
-                    <!--padrao mantido para compatibilidade para versoes anteriores -->
-                <?php if ( function_exists( 'the_custom_logo' ) ) {
-    the_custom_logo();
-} ?>
+            <!--logo-->
+                <?php the_custom_logo();?>
                <!--menu-->
+
+
                     <?php wp_nav_menu(
-                            array('theme_location' => 'header_menu','container' => ''));?>
-                    </div>
+                            array('theme_location' => 'header_menu','container' => ''));
+                    ?>
 
     </header>
 <main>
