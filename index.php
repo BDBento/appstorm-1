@@ -22,8 +22,11 @@
         if ( $the_query->have_posts() ) : 
             // começo do Loop 
             while ( $the_query->have_posts() ) : $the_query->the_post(); 
+            
                 the_title('<h2>','</h2></br>' ); 
                 the_excerpt('<h3>','</h3></br>');
+
+
                 previous_post_link();
                     echo '</br>';
                 next_post_link();
